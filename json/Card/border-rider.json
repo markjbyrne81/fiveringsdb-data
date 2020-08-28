@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "unicorn"
+        ],
         "clan": "unicorn",
         "cost": 2,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "border-rider",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 2,
+        "is_restricted": false,
+        "military": "2",
         "military_bonus": null,
         "name": "Border Rider",
-        "political": 1,
+        "name_extra": null,
+        "political": "1",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

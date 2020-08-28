@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "scorpion"
+        ],
         "clan": "scorpion",
         "cost": 5,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "bayushi-shoju",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Bayushi Shoju",
-        "political": 7,
+        "name_extra": null,
+        "political": "7",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

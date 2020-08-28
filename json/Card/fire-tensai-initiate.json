@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "phoenix"
+        ],
         "clan": "phoenix",
         "cost": 1,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "fire-tensai-initiate",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 0,
+        "is_restricted": false,
+        "military": "0",
         "military_bonus": null,
         "name": "Fire Tensai Initiate",
-        "political": 0,
+        "name_extra": null,
+        "political": "0",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

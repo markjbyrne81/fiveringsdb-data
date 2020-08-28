@@ -11,6 +11,11 @@ App\Entity\Card:
             - Length:
                 min: 2
                 max: 255
+        nameExtra:
+            - Type: string
+            - Length:
+                min: 2
+                max: 255
         clan:
             - Type: string
             - Choice:
@@ -26,7 +31,7 @@ App\Entity\Card:
         element:
             - Type: string
             - Choice:
-                choices: [air, earth, fire, void, water]
+                choices: [air, earth, fire, void, water, all]
                 strict: true
                 message: Not a valid element.
             - Expression:
@@ -48,7 +53,7 @@ App\Entity\Card:
             - Type: integer
             - GreaterThanOrEqual: 0
             - Expression:
-                expression: "this.getType() in ['holding','province','role','stronghold'] or value !== null"
+                expression: "this.getType() in ['holding','province','role','stronghold','attachment'] or value !== null"
                 message: Must have a cost.
         text:
             - Type: string
@@ -67,20 +72,20 @@ App\Entity\Card:
                 - NotBlank: ~
             - App\Validator\Constraints\KnownTraits: ~
         military:
-            - Type: integer
-            - GreaterThanOrEqual: 0
+            - Type: string
+            - Regex: "/^[0-9]+|X$/"
             - Expression:
                 expression: "this.getType() in ['character'] or value === null"
                 message: Cannot have a military skill.
         political:
-            - Type: integer
-            - GreaterThanOrEqual: 0
+            - Type: string
+            - Regex: "/^[0-9]+|X$/"
             - Expression:
                 expression: "this.getType() in ['character'] or value === null"
                 message: Cannot have a political skill.
         strength:
-            - Type: integer
-            - GreaterThanOrEqual: 0
+            - Type: string
+            - Regex: "/^[0-9]+|X$/"
             - Expression:
                 expression: "this.getType() in ['province'] or value === null"
                 message: Cannot have a strength.

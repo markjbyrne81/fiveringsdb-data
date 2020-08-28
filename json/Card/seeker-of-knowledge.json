@@ -1,5 +1,14 @@
 [
     {
+        "allowed_clans": [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "unicorn"
+        ],
         "clan": "phoenix",
         "cost": 2,
         "deck_limit": 3,
@@ -10,10 +19,12 @@
         "id": "seeker-of-knowledge",
         "influence_cost": 1,
         "influence_pool": null,
-        "military": 0,
+        "is_restricted": false,
+        "military": "0",
         "military_bonus": null,
         "name": "Seeker of Knowledge",
-        "political": 2,
+        "name_extra": null,
+        "political": "2",
         "political_bonus": null,
         "role_restriction": null,
         "side": "conflict",

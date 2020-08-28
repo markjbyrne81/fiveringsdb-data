@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "lion"
+        ],
         "clan": "lion",
         "cost": 3,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "lion-s-pride-brawler",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Lion's Pride Brawler",
-        "political": 2,
+        "name_extra": null,
+        "political": "2",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

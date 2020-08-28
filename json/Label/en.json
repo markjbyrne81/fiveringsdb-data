@@ -60,6 +60,10 @@
         "value": "Water"
     },
     {
+        "id": "element.all",
+        "value": "All"
+    },
+    {
         "id": "side.conflict",
         "value": "Conflict"
     },
@@ -88,6 +92,10 @@
         "value": "Air"
     },
     {
+        "id": "trait.armor",
+        "value": "Armor"
+    },
+    {
         "id": "trait.army",
         "value": "Army"
     },
@@ -106,6 +114,10 @@
     {
         "id": "trait.berserker",
         "value": "Berserker"
+    },
+    {
+        "id": "trait.brotherhood",
+        "value": "Brotherhood"
     },
     {
         "id": "trait.bushi",
@@ -140,12 +152,36 @@
         "value": "Courtier"
     },
     {
+        "id": "trait.crab",
+        "value": "Crab"
+    },
+    {
+        "id": "trait.crane",
+        "value": "Crane"
+    },
+    {
         "id": "trait.creature",
         "value": "Creature"
+    },
+	{
+        "id": "trait.crown-prince",
+        "value": "Crown Prince"
+    },
+    {
+        "id": "trait.curse",
+        "value": "Curse"
     },
     {
         "id": "trait.daimyo",
         "value": "Daimyō"
+    },
+    {
+        "id": "trait.dojo",
+        "value": "Dōjō"
+    },
+    {
+        "id": "trait.dragon",
+        "value": "Dragon"
     },
     {
         "id": "trait.duelist",
@@ -160,8 +196,16 @@
         "value": "Elemental Master"
     },
     {
+        "id": "trait.emperor",
+        "value": "Emperor"
+    },
+    {
         "id": "trait.engineer",
         "value": "Engineer"
+    },
+    {
+        "id": "trait.festival",
+        "value": "Festival"
     },
     {
         "id": "trait.fire",
@@ -184,6 +228,10 @@
         "value": "Garden"
     },
     {
+        "id": "trait.geisha",
+        "value": "Geisha"
+    },
+    {
         "id": "trait.goblin",
         "value": "Goblin"
     },
@@ -196,12 +244,20 @@
         "value": "Imperial"
     },
     {
+        "id": "trait.informant",
+        "value": "Informant"
+    },
+    {
         "id": "trait.item",
         "value": "Item"
     },
     {
         "id": "trait.jade",
         "value": "Jade"
+    },
+    {
+        "id": "trait.kaiu-wall",
+        "value": "Kaiu Wall"
     },
     {
         "id": "trait.keeper",
@@ -216,12 +272,24 @@
         "value": "Kihō"
     },
     {
+        "id": "trait.laboratory",
+        "value": "Laboratory"
+    },
+    {
         "id": "trait.landmark",
         "value": "Landmark"
     },
     {
         "id": "trait.library",
         "value": "Library"
+    },
+    {
+        "id": "trait.lion",
+        "value": "Lion"
+    },
+    {
+        "id": "trait.marketplace",
+        "value": "Marketplace"
     },
     {
         "id": "trait.magistrate",
@@ -244,12 +312,20 @@
         "value": "Meishōdō"
     },
     {
+        "id": "trait.merchant",
+        "value": "Merchant"
+    },
+    {
         "id": "trait.mine",
         "value": "Mine"
     },
     {
         "id": "trait.monk",
         "value": "Monk"
+    },
+    {
+        "id": "trait.mount",
+        "value": "Mount"
     },
     {
         "id": "trait.mythic",
@@ -301,11 +377,15 @@
     },
     {
         "id": "trait.ronin",
-        "value": "Ronin"
+        "value": "Rōnin"
     },
     {
         "id": "trait.scholar",
         "value": "Scholar"
+    },
+    {
+        "id": "trait.scorpion",
+        "value": "Scorpion"
     },
     {
         "id": "trait.scout",
@@ -340,6 +420,10 @@
         "value": "Shugenja"
     },
     {
+        "id": "trait.skill",
+        "value": "Skill"
+    },
+    {
         "id": "trait.spell",
         "value": "Spell"
     },
@@ -364,6 +448,10 @@
         "value": "Tattooed"
     },
     {
+        "id": "trait.tea-house",
+        "value": "Tea House"
+    },
+    {
         "id": "trait.technique",
         "value": "Technique"
     },
@@ -375,9 +463,21 @@
         "id": "trait.trap",
         "value": "Trap"
     },
+	{
+        "id": "trait.unicorn",
+        "value": "Unicorn"
+    },
+    {
+        "id": "trait.village",
+        "value": "Village"
+    },
     {
         "id": "trait.void",
         "value": "Void"
+    },
+    {
+        "id": "trait.wasteland",
+        "value": "Wasteland"
     },
     {
         "id": "trait.water",

@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "phoenix"
+        ],
         "clan": "phoenix",
         "cost": 2,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "pacifist-philosopher",
         "influence_cost": null,
         "influence_pool": null,
+        "is_restricted": false,
         "military": null,
         "military_bonus": null,
         "name": "Pacifist Philosopher",
-        "political": 1,
+        "name_extra": null,
+        "political": "1",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

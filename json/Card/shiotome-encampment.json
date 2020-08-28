@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "unicorn"
+        ],
         "clan": "unicorn",
         "cost": null,
         "deck_limit": 3,
@@ -10,9 +13,11 @@
         "id": "shiotome-encampment",
         "influence_cost": null,
         "influence_pool": null,
+        "is_restricted": false,
         "military": null,
         "military_bonus": null,
         "name": "Shiotome Encampment",
+        "name_extra": null,
         "political": null,
         "political_bonus": null,
         "role_restriction": null,

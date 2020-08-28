@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "crab"
+        ],
         "clan": "crab",
         "cost": 5,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "kuni-yori",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 4,
+        "is_restricted": false,
+        "military": "4",
         "military_bonus": null,
         "name": "Kuni Yori",
-        "political": 4,
+        "name_extra": null,
+        "political": "4",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

@@ -1,5 +1,14 @@
 [
     {
+        "allowed_clans": [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "unicorn"
+        ],
         "clan": "dragon",
         "cost": 0,
         "deck_limit": 3,
@@ -10,9 +19,11 @@
         "id": "adopted-kin",
         "influence_cost": 1,
         "influence_pool": null,
+        "is_restricted": false,
         "military": null,
         "military_bonus": "+0",
         "name": "Adopted Kin",
+        "name_extra": null,
         "political": null,
         "political_bonus": "+0",
         "role_restriction": "fire",

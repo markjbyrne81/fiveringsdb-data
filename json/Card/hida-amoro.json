@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "crab"
+        ],
         "clan": "crab",
         "cost": 3,
         "deck_limit": 3,
@@ -10,9 +13,11 @@
         "id": "hida-amoro",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 4,
+        "is_restricted": false,
+        "military": "4",
         "military_bonus": null,
         "name": "Hida Amoro",
+        "name_extra": null,
         "political": null,
         "political_bonus": null,
         "role_restriction": null,

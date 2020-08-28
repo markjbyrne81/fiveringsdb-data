@@ -1,5 +1,14 @@
 [
     {
+        "allowed_clans": [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "unicorn"
+        ],
         "clan": "neutral",
         "cost": null,
         "deck_limit": 1,
@@ -10,9 +19,11 @@
         "id": "keeper-of-earth",
         "influence_cost": null,
         "influence_pool": null,
+        "is_restricted": false,
         "military": null,
         "military_bonus": null,
         "name": "Keeper of Earth",
+        "name_extra": null,
         "political": null,
         "political_bonus": null,
         "role_restriction": null,

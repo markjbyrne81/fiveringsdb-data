@@ -157,8 +157,116 @@
         "name": "Underhand of the Emperor",
         "position": 2,
         "size": 28,
-        "released_at": null,
+        "released_at": "2018-10-11",
         "ffg_id": "L5C15",
+        "cycle_id": "clan-packs"
+    },
+    {
+        "id": "children-of-the-empire",
+        "name": "Children of the Empire",
+        "position": 1,
+        "size": 82,
+        "released_at": "2019-02-14",
+        "ffg_id": "L5C16",
+        "cycle_id": "premium-expansions"
+    },
+    {
+        "id": "warriors-of-the-wind",
+        "name": "Warriors of the Wind",
+        "position": 3,
+        "size": 28,
+        "released_at": "2019-04-11",
+        "ffg_id": "L5C17",
+        "cycle_id": "clan-packs"
+    },
+    {
+        "id": "masters-of-the-court",
+        "name": "Masters of the Court",
+        "position": 4,
+        "size": 28,
+        "released_at": "2019-04-26",
+        "ffg_id": "L5C18",
+        "cycle_id": "clan-packs"
+    },
+    {
+        "id": "for-the-empire",
+        "name": "For the Empire",
+        "position": 1,
+        "size": 22,
+        "released_at": "2019-06-22",
+        "ffg_id": "L5C19",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "bonds-of-blood",
+        "name": "Bonds of Blood",
+        "position": 2,
+        "size": 22,
+        "released_at": "2019-07-19",
+        "ffg_id": "L5C20",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "justice-for-satsume",
+        "name": "Justice for Satsume",
+        "position": 3,
+        "size": 22,
+        "released_at": "2019-08-01",
+        "ffg_id": "L5C21",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "the-children-of-heaven",
+        "name": "The Children of Heaven",
+        "position": 4,
+        "size": 22,
+        "released_at": "2019-09-01",
+        "ffg_id": "L5C22",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "a-champion-s-foresight",
+        "name": "A Champion's Foresight",
+        "position": 5,
+        "size": 22,
+        "released_at": "2019-10-01",
+        "ffg_id": "L5C23",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "shoju-s-duty",
+        "name": "Shoju's Duty",
+        "position": 6,
+        "size": 20,
+        "released_at": "2019-11-01",
+        "ffg_id": "L5C24",
+        "cycle_id": "inheritance"
+    },
+    {
+        "id": "the-emperor-s-legion",
+        "name": "The Emperor's Legion",
+        "position": 5,
+        "size": 28,
+        "released_at": "2019-09-01",
+        "ffg_id": "L5C27",
+        "cycle_id": "clan-packs"
+    },
+    {
+        "id": "defenders-of-rokugan",
+        "name": "Defenders of Rokugan",
+        "position": 6,
+        "size": 32,
+        "released_at": "2019-10-01",
+        "ffg_id": "L5C26",
+        "cycle_id": "clan-packs"
+    },
+    {
+        "id": "seekers-of-wisdom",
+        "name": "Seekers of Wisdom",
+        "position": 7,
+        "size": 28,
+        "released_at": "2019-11-01",
+        "ffg_id": "L5C25",
         "cycle_id": "clan-packs"
     }
 ]

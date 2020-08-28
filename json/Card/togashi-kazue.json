@@ -1,5 +1,14 @@
 [
     {
+        "allowed_clans": [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "unicorn"
+        ],
         "clan": "dragon",
         "cost": 3,
         "deck_limit": 3,
@@ -10,10 +19,12 @@
         "id": "togashi-kazue",
         "influence_cost": 2,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Togashi Kazue",
-        "political": 3,
+        "name_extra": null,
+        "political": "3",
         "political_bonus": null,
         "role_restriction": null,
         "side": "conflict",

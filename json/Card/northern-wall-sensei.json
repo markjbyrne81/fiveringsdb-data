@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "dragon"
+        ],
         "clan": "dragon",
         "cost": 3,
         "deck_limit": 3,
@@ -10,9 +13,11 @@
         "id": "northern-wall-sensei",
         "influence_cost": null,
         "influence_pool": null,
+        "is_restricted": false,
         "military": "2",
         "military_bonus": null,
         "name": "Northern Wall Sensei",
+        "name_extra": null,
         "political": "2",
         "political_bonus": null,
         "role_restriction": "keeper",

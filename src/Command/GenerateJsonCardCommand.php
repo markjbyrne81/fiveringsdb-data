@@ -13,6 +13,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\Question;
+use Symfony\Component\Finder\Finder;
 use Symfony\Component\Validator\ConstraintViolationInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
@@ -57,11 +58,38 @@ class GenerateJsonCardCommand extends Command
             ->setDescription("Generate json file for a card");
     }
 
+    private function alreadyExists(string $name): bool
+    {
+        $finder = new Finder();
+        $finder->files()->in('./json/Card/')->name('*.json');
+        foreach ($finder as $file) {
+            $content = json_decode(file_get_contents($file), true);
+            if ($content[0]['name'] === $name) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     protected function execute (InputInterface $input, OutputInterface $output)
     {
         $helper = $this->getHelper('question');
 
         $card = new Card();
+        $card->setName($helper->ask($input, $output, new Question('Name: ')));
+        if ($this->alreadyExists($card->getName())) {
+            $output->writeln('<info>A card with that name already exists, you must provide an extra.</info>');
+            $card->setNameExtra($helper->ask($input, $output, new Question('Extra: ')) ?: null);
+        }
+
+        $card->setId($this->slugify->slugify($card->getFullName()));
+        $filepath = './json/Card/' . $card->getId() . '.json';
+        if (file_exists($filepath)) {
+            $output->writeln(sprintf('<info>Card already exists at %s -- aborting.</info>', $filepath));
+            die();
+        }
+
         $card->setClan($helper->ask($input, $output, new ChoiceQuestion('Clan: ', [
             Card::CLAN_CRAB,
             Card::CLAN_CRANE,
@@ -81,8 +109,6 @@ class GenerateJsonCardCommand extends Command
             Card::TYPE_ROLE,
             Card::TYPE_STRONGHOLD,
         ])));
-        $card->setName($helper->ask($input, $output, new Question('Name: ')));
-        $card->setId($this->slugify->slugify($card->getName()));
         $card->setTraits($this->askArray($input, $output, $helper, new Question('Traits: ')));
         $card->setText($helper->ask($input, $output, new Question('Text: ')));
 
@@ -104,8 +130,8 @@ class GenerateJsonCardCommand extends Command
                 $card->setRoleRestriction($helper->ask($input, $output, new Question('Role Restriction: ')));
                 $card->setUnicity($this->askBoolean($input, $output, $helper, new Question('Unique: (y/N) ', 'n')));
                 $card->setCost($helper->ask($input, $output, new Question('Cost: ')));
-                $card->setMilitary($helper->ask($input, $output, new Question('Military Skill: ')));
-                $card->setPolitical($helper->ask($input, $output, new Question('Political Skill: ')));
+                $card->setMilitary($helper->ask($input, $output, new Question('Military Skill (can be empty): ')));
+                $card->setPolitical($helper->ask($input, $output, new Question('Political Skill (can be empty): ')));
                 $card->setGlory($helper->ask($input, $output, new Question('Glory: ')));
                 $card->setDeckLimit($helper->ask($input, $output, new Question('Deck Limit (3): ', 3)));
                 break;
@@ -170,7 +196,7 @@ class GenerateJsonCardCommand extends Command
         $context->setSerializeNull(true);
         $data = $this->arrayTransformer->toArray($card, $context);
 
-        file_put_contents('./json/Card/' . $card->getId() . '.json', $this->encode($data));
+        file_put_contents($filepath, $this->encode($data));
     }
 
     private function encode (array $data): string

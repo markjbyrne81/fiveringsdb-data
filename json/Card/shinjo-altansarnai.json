@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "unicorn"
+        ],
         "clan": "unicorn",
         "cost": 5,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "shinjo-altansarnai",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 5,
+        "is_restricted": false,
+        "military": "5",
         "military_bonus": null,
         "name": "Shinjo Altansarnai",
-        "political": 4,
+        "name_extra": null,
+        "political": "4",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

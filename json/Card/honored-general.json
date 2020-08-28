@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "lion"
+        ],
         "clan": "lion",
         "cost": 4,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "honored-general",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Honored General",
-        "political": 1,
+        "name_extra": null,
+        "political": "1",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

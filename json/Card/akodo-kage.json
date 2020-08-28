@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "lion"
+        ],
         "clan": "lion",
         "cost": 4,
         "deck_limit": 3,
@@ -10,16 +13,18 @@
         "id": "akodo-kage",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 2,
+        "is_restricted": false,
+        "military": "2",
         "military_bonus": null,
         "name": "Akodo Kage",
-        "political": 4,
+        "name_extra": null,
+        "political": "4",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Reaction:</b> After honor dials are revealed for an honor bid, if your bid is lower than an opponent's and you are more honorable thatn that opponent – set that opponent's honor dial to be equal to yours.",
+        "text": "<b>Reaction:</b> After honor dials are revealed for an honor bid, if your bid is lower than an opponent's and you are more honorable than that opponent – set that opponent's honor dial to be equal to yours.",
         "traits": [
             "courtier"
         ],

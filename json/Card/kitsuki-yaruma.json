@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "dragon"
+        ],
         "clan": "dragon",
         "cost": 4,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "kitsuki-yaruma",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 2,
+        "is_restricted": false,
+        "military": "2",
         "military_bonus": null,
         "name": "Kitsuki Yaruma",
-        "political": 4,
+        "name_extra": null,
+        "political": "4",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "dragon"
+        ],
         "clan": "dragon",
         "cost": 3,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "kitsuki-investigator",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 1,
+        "is_restricted": false,
+        "military": "1",
         "military_bonus": null,
         "name": "Kitsuki Investigator",
-        "political": 3,
+        "name_extra": null,
+        "political": "3",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

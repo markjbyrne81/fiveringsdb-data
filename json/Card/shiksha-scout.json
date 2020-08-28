@@ -1,5 +1,14 @@
 [
     {
+        "allowed_clans": [
+            "crab",
+            "crane",
+            "dragon",
+            "lion",
+            "phoenix",
+            "scorpion",
+            "unicorn"
+        ],
         "clan": "unicorn",
         "cost": 2,
         "deck_limit": 3,
@@ -10,10 +19,12 @@
         "id": "shiksha-scout",
         "influence_cost": 2,
         "influence_pool": null,
-        "military": 2,
+        "is_restricted": false,
+        "military": "2",
         "military_bonus": null,
         "name": "Shiksha Scout",
-        "political": 2,
+        "name_extra": null,
+        "political": "2",
         "political_bonus": null,
         "role_restriction": null,
         "side": "conflict",

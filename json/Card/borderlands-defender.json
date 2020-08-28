@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "crab"
+        ],
         "clan": "crab",
         "cost": 3,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "borderlands-defender",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Borderlands Defender",
-        "political": 3,
+        "name_extra": null,
+        "political": "3",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

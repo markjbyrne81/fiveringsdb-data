@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "phoenix"
+        ],
         "clan": "phoenix",
         "cost": 5,
         "deck_limit": 3,
@@ -10,16 +13,18 @@
         "id": "isawa-tadaka",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 5,
+        "is_restricted": true,
+        "military": "5",
         "military_bonus": null,
         "name": "Isawa Tadaka",
-        "political": 3,
+        "name_extra": null,
+        "political": "3",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "Each opponent cannot play copies of event cards that are in his or her conflict discard pile unless the [element-earth] ring is in that player's claimed ring pool.",
+        "text": "While the [element-earth] ring is contested or in your claimed ring pool, each opponent cannot play copies of event cards that are in his or her conflict discard pile.\n<i>Errata from RRG v9</i>",
         "traits": [
             "shugenja",
             "earth",

@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "unicorn"
+        ],
         "clan": "unicorn",
         "cost": 4,
         "deck_limit": 3,
@@ -10,10 +13,12 @@
         "id": "ide-tadaji",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 1,
+        "is_restricted": false,
+        "military": "1",
         "military_bonus": null,
         "name": "Ide Tadaji",
-        "political": 4,
+        "name_extra": null,
+        "political": "4",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",

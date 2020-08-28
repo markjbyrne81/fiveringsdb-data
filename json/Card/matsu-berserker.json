@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "lion"
+        ],
         "clan": "lion",
         "cost": 1,
         "deck_limit": 3,
@@ -10,9 +13,11 @@
         "id": "matsu-berserker",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 3,
+        "is_restricted": false,
+        "military": "3",
         "military_bonus": null,
         "name": "Matsu Berserker",
+        "name_extra": null,
         "political": null,
         "political_bonus": null,
         "role_restriction": null,

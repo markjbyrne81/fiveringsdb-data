@@ -1,5 +1,8 @@
 [
     {
+        "allowed_clans": [
+            "crane"
+        ],
         "clan": "crane",
         "cost": 2,
         "deck_limit": 3,
@@ -10,16 +13,18 @@
         "id": "ikebana-artisan",
         "influence_cost": null,
         "influence_pool": null,
-        "military": 0,
+        "is_restricted": false,
+        "military": "0",
         "military_bonus": null,
         "name": "Ikebana Artisan",
-        "political": 2,
+        "name_extra": null,
+        "political": "2",
         "political_bonus": null,
         "role_restriction": null,
         "side": "dynasty",
         "strength": null,
         "strength_bonus": null,
-        "text": "<b>Interrupt:</b> When you would lose 1 honor for an unopposed conflict – lose 1 fate instead. (Unlimited.)",
+        "text": "<b>Interrupt:</b> When you would lose 1 honor for an unopposed conflict – cancel that honor loss. Then, lose 1 fate. (Unlimited.)\n<i>Errata from RRG v1.7</i>",
         "traits": [
             "courtier"
         ],
